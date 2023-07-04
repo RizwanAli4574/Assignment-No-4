@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+<body>
+    <!-- <a href="../INDEX.HTML">Home</a> <br> --> 
+    <h1>Rizwan Ali CCO 116628</h1>
+    <h3>Assignment 4</h3> <hr>
+    <h2>Nested Table</h2>
+    <table border="1">
+        <tr>
+            <th>Header Column 1</th>
+            <th>Header Column 2</th>
+            <th>Header Column 3</th>
+            <th>Header Column 4</th>
+        </tr>
+        <tr>
+            <td > Row 2 - item 1  </td>
+            <td >  Row 2 - item 2 </td>
+            <td rowspan="2"> Row-2 Nested Table 1 <br>
+                <br>   
+                <table border="1">
+                    <tr>
+                        <th>Row 1 Header</th> 
+                        <td> Item 1 </td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>Item 2</td>
+                    </tr>
+                    <tr>
+                        <th> Row 3 Header</th>
+                        <td> Item 3  <br></td>
+                    </tr>
+                </table> </td> 
+            <td> <br> Row-2 item 4 <br>A second line</td>
+        </tr>
+        <tr>
+            <th> Row:3 Nested Table 2 <br>
+                <br>
+                <table border="1">
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>Item</td>
+                    </tr>
+                </table>       
+            </th>  
+            <td>Row 3- item 2 </td> 
+            <td rowspan="2">Row 3- item 2 <br> </td>  
+        </tr>
+        <tr>
+            <td>Row 4 Item 1</td>
+            <td>Row 4 Item 2</td>
+            <td>Row 4 Item 3</td>
+          </tr>
+          <tr>
+            <td colspan="4">Row 5 - Last row of outher table</td>
+          </tr>
+        </table> <br><hr>
+        <h2>Seminar</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="5">Seminar</th>
+                <tr>
+                    <th colspan="2">Schedule</th>
+                    <th colspan="3" rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th>Begin</th>
+                    <th>End</th>
+                </tr>
+               <tr>
+                <td rowspan="2" style="text-align: center;">Monday</td>
+                <td rowspan="2">8:00 A.M</td>
+                <td rowspan="2">5:00 PM</td>
+                <td colspan="3" style="text-align: center;">Introduction to XML</td>
+               </tr>
+               <tr>
+                <td colspan="3" style="text-align: center;">Validity: DTD and Relax NG</td>
+               </tr>
+               <tr>
+                <td rowspan="3" style="text-align: center;">Tuesday</td>
+                <td >8:00 A.M</td>
+                <td >11:00 A.M</td>                
+                <td rowspan="2" colspan="3" style="text-align: center;">Xpath</td>                
+                <tr>
+                    <td >11:00 A.M</td>
+                    <td>02:00 P.M</td>
+                </tr>
+                <tr>
+                    <td>02:00 P.M</td>
+                    <td>05:00 P.M</td>
+                    <td style="text-align: center;">XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>12:00 P.m</td>
+                    <td>8:00 A.m</td>
+                    <td style="text-align: center;">XSL Formatting Objects</td>
+                </tr>
+            </tr>
+        </table> <br> <hr>
+        <h2> Athletics day time table</h2>
+        <table border="10">
+            <tr> 
+                <th colspan="12">Athletics day time table</th>   
+            </tr>
+            <tr>
+                <th>Area</th>
+                <th>10 Am - 11 am</th>
+                <th>11 Am - 12 am</th>
+                <th>12 Am - 1 am</th>
+                <th>1 Am - 2 am</th>
+                <th>2 Am - 3 am</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Track</th>
+                <td >400m</td>
+                <td>220m</td>
+                <th rowspan="3">Lunch</th>
+                <td >800m</td>
+                <td>100m</td>
+            </tr>
+            <tr>
+                <td>Hurdles</td>
+                <td>1500m</td>
+                <td>Free</td>
+                <td>80m</td>
+            </tr>
+            <tr>
+                <th>Field</th>
+                <td>Discue</td>
+                <td>Javelin</td>
+                <td>Shot put</td>
+                <td>Hammer throw</td>
+            </tr>
+        </table> <br> <hr>
+        <h2>Mark Sheet of 2077</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="4"> S.NO.</th>
+                <th rowspan="4"> Name</th>
+                <th colspan="6"> Subject</th>
+                <th rowspan="4"> Total</th>
+            </tr>
+            <tr>
+                <th colspan="2">Science</th>
+                <th colspan="2">Social</th>
+                <th colspan="2">computer</th>
+            </tr>
+            <tr>
+                <th colspan="6">Marks</th>
+            </tr>
+            <tr>
+                <th>Internal</th>
+                <th>Final</th>
+                <th>Internal</th>
+                <th>Final</th>
+                <th>Internal</th>
+                <th>Final</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bikash</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bikash</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Avinash</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ram</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Abdul</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <th colspan="9">Total</th>
+            </tr>
+        </table>
+    
+    
+   
+<h2>Commodities</h2><hr>
+<Table border="1">
+    <tr>
+        <th>Related Topic</th>
+        <td>Markets</td>
+        <td>Business</td>
+        <td>Economy</td>
+        <td>Green Business</td>
+        <td>Hot Stock</td>
+        <td>More Topics</td></tr>    
+</Table>
+ <br>
+ <H5>THOMSON REUTERS/JEFFERIES CRB INDEX (TR/JCRB)</H5>
+<br>
+<table border="1">
+    <tr>
+        <th rowspan="2">359.42</th>
+        <td>change</td>
+        <td>Open</td>
+        <td>High</td>
+        <td>Low</td>
+        <td>Times</td>
+    </tr>
+    <tr>
+        <td>-3.36</td>
+        <td>360.90</td>
+        <td>361.19</td>
+        <td>357.99</td>
+        <td>4/25 18.53</td>
+    </tr>
+</table>
+<br>
+<h5>COMMODITY FUTURES</h5>
+<table border="1">
+    <tr>
+        <th>Energy:</th>
+        <td>Oil, Nactrul Gas, Electricity</td>
+    </tr> 
+    <tr>
+        <th>Metals:</th>
+        <td>Base Metals, Precious Metals</td>
+    </tr>
+    <tr>
+        <th>Oilseeds:</th>
+        <td>Soy beans, Rap seeds, Palm oil</td>
+    </tr>
+    <tr>
+        <th>Grains:</th>
+        <td>Com/Mize, Wheat, Rice</td>
+    </tr>
+    <tr>
+        <th>Soft:</th>
+        <td>Sugar, Coffee, Cocoa, Rubber, Cotton</td>
+    </tr>
+    <tr>
+        <th>Live Stock:</th>
+        <td>Lean Hogs, Live Cattle</td>
+    </tr>
+</table>
+<br>
+<h5>THOMSON RETURES EQUIEL WEIGHT CONTINUOUS COMMODITIES INDEX (CCI)</h5>
+<P>Position of price in relation to is moving average. This chart is desied to identify cyclical tums. CCI works well in ranging <br> markets and typically fluctuates between + 100 and -100  </P>
+<table border="1">
+    <thead>
+        <tr>
+            <th>COMMODITY</th>
+            <th>Currency</th>
+            <th>Last</th>
+            <th>Change</th>
+            <th>%Change</th>
+            <th>TradeDate/Time</th>
+        </tr>
+    </thead>
+<tbody>
+    <tr>
+        <th>Hogs, Lean Pit CME jUNE11</th>
+        <td>USD</td>
+        <td>101.28</td>
+        <td>+0.2</td>
+        <td>+0.20%</td>
+        <td>4/18 14:13</td>
+    </tr>
+    <tr>
+        <th>Oil, Heating New York No.2 NYMEX May11</th>
+        <td>USD</td>
+        <td>3.19</td>
+        <td>-0.04</td>
+        <td>-1.18%</td>
+        <td>4/18 15:14</td>
+    </tr>
+    <tr>
+        <th>Crude Oil Light Sweet May11 </th>
+        <td>USD</td>
+        <td>107.21</td>
+        <td>-2.45</td>
+        <td>-2.29%</td>
+        <td>4/18 15:14</td>
+    </tr>
+</tbody>
+</table>
+<br>
+<br> <hr>
+    <H4>Basic Table Structure</H4>
+       <TABle border="10px" cellpadding="5" cellspacing="5">
+        <TR>
+            <TD>50</TD>
+            <TD>40</TD>
+            <TD>30</TD>
+            <TD>100</TD>
+            <TD>200</TD>
+        </TR>
+        <TR>
+            <TD>60</TD>
+            <TD>80</TD>
+            <TD>40</TD>
+            <TD>101</TD>
+            <TD>202</TD>
+        </TR>
+        <TR>
+            <TD>51</TD>
+            <TD>45</TD>
+            <TD>38</TD>
+            <TD>99</TD>
+            <TD>190</TD>
+        </TR>
+      </TABle>  <hr>
+      
+      <h4>Table Headings</h4>
+       <table border="2">
+<tr>
+    <th></th>
+    <th scope="col">
+saturday
+</th>
+<th scope="col"> sanday</th>
+</tr>
+<tr><th scope="col"> Ticket Sold: </th> 
+    <td>120</td>
+    <td>300</td>
+</tr>
+<tr><th scope="col">Total Sale:</th> 
+    <td>$600</td>
+    <td>$675</td>
+</tr>
+
+      </table> <hr>
+      <h4>Spanning Coluumns</h4>
+ <table border="1PX" >
+    <tr> 
+        <th></th>
+        <th>11AM</th>
+        <th>10AM</th>
+        <th>11AM</th>
+        <th>12AM</th>
+    </tr>
+    <TR>
+        <TH>Monday</TH>
+        <td colspan="2">Geography</td>
+        <td >Math</td>
+        <td >Art</td>
+    </TR>
+    <tr>
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>HomeEc</td>
+    </tr>
+</table> <hr>
+<h4>Spanning Rows</h4>
+     <TABle border="1px">
+        <TR>
+            <th></th>
+            <TH>ABC</TH>
+            <TH>BBC</TH>
+            <TH>CNN</TH>
+        </TR>
+        <TR>
+            <TH> 6AM - 7PM</TH>
+            <TD rowspan="2">Moies</TD>
+            <TD>Comedy</TD>
+            <TD>News</TD>
+        </TR>
+        <tr><th>7pM - 9PM</th>
+            <td>Sport</td>
+            <td>Crunnt Affairs</td>
+        </tr>
+      </TABle> <hr>
+<h4>Long Table</h4>
+      <table border="10px">
+        <thead>
+        <tr>
+        <th>Date</th>
+        <th>Income</th>
+        <th>Expenditure</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <th>1st January</th>
+        <td>250</td>
+        <td>36</td>
+        </tr>
+        <tr>
+        <th>2nd January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>3rd January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>4th January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>5th January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>6th January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>7th January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>8th January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>9th January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        <tr>
+        <th>10th January</th>
+        <td>285</td>
+        <td>48</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+        <td></td>
+        <td>2815</td>
+        <td>468
+        </td>
+        </tr>
+        </tfoot>
+    </table> <hr>
+    <h4>Book Example</h4>
+    <table border="1px">
+        <thead>
+            <tr><th></th>
+                <th>Home Starter hosting</th>
+                <tH>Premimum Business hosting</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th> Disk Space</th>
+                <td> 250 mg</td>
+                <td> 1gb</td>
+            </tr>
+            <tr>
+                <th> Band width</th>
+                <td> 5gb per month</td>
+                <td> 50gb per month</td>
+            </tr>
+            <tr>
+                <th> Email</th>
+                <td> 3</td>
+                <td> 10</td>
+            </tr>
+            <tr>
+                <th> Server</th>
+                <td> Share</td>
+                <td> Vps</td>
+            </tr>
+            <tr>
+                <th> Support</th>
+                <td>E.mail</td>
+                <td>Whatsapp</td>
+            </tr>
+            <tr>
+                <th> Set Up</th>
+                <td> Free</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <th> FTP accounts</th>
+                <td> 2</td>
+                <td> 10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <td colspan="2">Sing up now and save 10%</td>
+            </tr>
+        </tfoot>
+    </table> 
+</body>
+
+</html>
